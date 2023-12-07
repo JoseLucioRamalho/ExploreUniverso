@@ -1,0 +1,131 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+style {
+  width: 128rem;
+  height: 72.0rem;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url(./assets/mountains-pag1.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.universo {
+    background: url(./assets/mountains-pag2.png) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    padding-top: 50px;
+  }
+
+.exploracao {
+    background: url(./assets/mountains-pag3.png) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    margin-top: 50px;
+    
+}
+
+.error {
+  background: url(./assets/mountains-pag1.png) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+  margin-top: 50px;
+}
+
+.home {
+  margin-top:30rem;
+}
+
+nav {
+  display: flex;
+  padding: 4.0rem 71.9rem 4.0rem 7.2rem;
+  align-items: center;
+  gap: 3.2rem;
+ 
+  font-size: 2.1rem;
+  position: absolute;
+  top:10px;
+  font-weight: 400;
+  line-height: 2.1rem;
+  z-index: 10;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.508);
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: white;
+}
+
+
+h1 {
+  color: white;
+  
+  font-size: 4.8rem;
+  text-align: center;
+ 
+  }
+
+  button {
+  background: transparent;
+  color: white;
+  
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+
+  text-transform: uppercase;
+
+  border-radius: .5rem;
+  border: .2rem solid #FFF;
+  padding: 1.2rem 3.2rem;
+  gap: .8rem;
+
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  margin-top: 2.4rem;
+  cursor: pointer;
+  } 
+
+  h2 {
+  color: white;
+  
+  font-size: 4.8rem;
+  font-weight: 700;
+  
+  margin-top: 8.2rem;
+  margin-left: 10.2rem;
+  }
+
+  p{
+  color: white;
+  
+  font-size: 18px;
+  font-weight: 400;
+  width: 64.8rem;
+
+  margin-top: 3.5rem;
+  margin-left: 10.2rem;
+  }
